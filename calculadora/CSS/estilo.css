@@ -14,13 +14,28 @@ body {
     padding: 16px;
     border-radius: 10px;
 }
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+
 input{
     margin: 8px 0;
     padding: 8px;
     outline: none;
 }
-#btn-calcular{
+#btn-Calcular{
     background-color: rgb(118, 119, 209);
+    color:#fdf2ff;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#btn-Limpar{
+    background-color: rgb(197, 100, 192);
     color:#fdf2ff;
     padding: 8px;
     border-radius: 4px;
